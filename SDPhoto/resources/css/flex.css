@@ -1,0 +1,116 @@
+
+/***************** Flex Containers ***********************/
+/******************************************************/
+
+.flex-container,
+.flex-container-full,
+.flex-container-1k,
+.flex-centered{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto 0 auto;
+}
+
+.flex-nav{
+    display: flex;
+    margin: 0px auto 0 auto;
+    max-width: 1300px;
+}
+
+.flex-container{
+    max-width: 1300px;
+    justify-content: space-between;    
+}
+
+.flex-container-1k{
+    max-width: 1000px;
+    justify-content: space-between;    
+}
+
+.flex-space{
+    
+}
+
+.flex-centered{
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+/***************** Flex Columns ***********************/
+/******************************************************/
+
+.flex-auto{
+    margin: auto;
+}
+
+.flex-full{
+    box-sizing: border-box;
+    flex-basis: 99%;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+.flex-half{
+    box-sizing: border-box;
+    flex-basis: 49%;
+    padding-bottom: 10px;
+    margin: 2px;
+}
+
+
+.flex-thirds{
+    box-sizing: border-box;
+    flex-basis: 32%;
+    text-align: left;
+    margin: 5px;
+}
+
+.flex-fourth{
+    box-sizing: border-box;
+    flex-basis: 24%;
+    padding-bottom: 10px;
+    
+}
+
+
+.flex-container img{
+    max-width: 100%;
+    box-shadow: 0px 4px 6px 0 rgba(0, 0, 0, 0.43), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/***************** Flex Columns media ***********************/
+/************************************************************/
+
+@media only screen and (max-width: 1300px){
+
+}
+
+
+@media only screen and (max-width: 1000px){
+    
+}
+
+
+@media only screen and (max-width: 800px){
+    .flex-half{
+        flex-basis: 100%;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+    }
+
+    .flex-thirds{
+        flex-basis: 95%;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+    }
+
+    .flex-fourth{
+        flex-basis: 48%;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+    }
+}

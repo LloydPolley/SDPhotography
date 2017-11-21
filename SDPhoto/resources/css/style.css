@@ -1,0 +1,306 @@
+/*--------------------------------------*/
+/* SETUP  */
+/*--------------------------------------*/
+
+
+html,
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #414141;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*--------------------------------------*/
+/* HEADERS LISTS LINKS  */
+/*--------------------------------------*/
+nav h1{
+    color: #fff;
+}
+
+
+
+h1,h2,h3,h4,h5{
+    /* font-family: 'Gentium Basic'; */
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+hr{
+    border-color: rgb(231, 231, 231);
+}
+
+i{
+    font-size: 150%;
+    transition: all 0.2s;
+}
+
+i:hover{
+    color: #3B5998;
+}
+
+
+/*--------------------------------------*/
+/* BUTTONS  */
+/*--------------------------------------*/
+
+
+button,
+.contact-button{
+    border-radius: 2px;
+    border: 1px solid rgba(90, 126, 194, 0.418);
+    padding: 7px;
+    color: #5A7CC2;
+    font-size: 110%;
+    background-color: rgba(253, 253, 253, 0.486);
+    transition: 0.2s all;
+    width: 200px;
+    -webkit-appearance: none;
+}
+
+button:hover,
+.contact-button:hover{
+    border: 1px solid rgb(90, 126, 194);
+    color: rgb(34, 81, 175);
+}
+
+
+
+
+.button-over-img{
+    position: absolute;
+    top: 30%;
+}
+
+
+/*--------------------------------------*/
+/* NAV  */
+/*--------------------------------------*/
+
+header{
+    height: 70vh;
+    width: auto;
+    background-image: url("img/1.jpg"), linear-gradient(
+        rgba(51, 51, 51, 0.83), 
+        rgba(51, 51, 51, 0.83)
+      );
+      background-repeat: no-repeat;
+    background-position: center;
+    transition: background 0.2s ease;
+}
+
+#text-header{
+    color: #fff;
+    text-shadow: -1px -1px 0 rgb(141, 141, 141),
+    1px -1px 0 rgb(141, 141, 141),
+    -1px 1px 0 rgb(141, 141, 141),
+    1px 1px 0 rgb(141, 141, 141);
+    
+}
+header img{
+    width: 100%;
+    height: auto;
+}
+
+#pet-header{
+    display: none;
+}
+
+nav{
+    background-color:rgba(66, 66, 66, 0.425);
+    color: rgb(255, 255, 255);
+}
+nav a{
+    display: inline-block;
+}
+.nav-header{
+    padding: 0;
+    margin: 10px 0px;
+    transition: all 0.3s;
+    
+}
+
+.nav-header:hover{
+    color: #cacaca;
+}
+
+.nav-links{
+    padding: 0;
+    float: right;
+    color: #fff;
+}
+
+.nav-links li{
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    transition: all 0.3s;
+    
+}
+
+.nav-links li a:hover{
+    color: #cacaca;
+}
+
+
+
+
+
+/*--------------------------------------*/
+/* AREAS and WELCOME */
+/*--------------------------------------*/
+
+.area-section,
+.intro-section,
+.contact-section{
+    padding: 0 15px;
+}
+
+.area-section p{
+    width: 90%;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+.intro-section{
+    background-color: rgb(238, 238, 238);
+}
+
+.area-title{
+    margin-bottom: 0;
+}
+
+
+.area-section h5{
+    margin-bottom: -10px;
+}
+
+.flex-thirds p,
+.flex-thirds h5{
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+
+.flex-thirds p{
+    text-align: justify;
+}
+
+.container-img{
+    position: relative;
+}
+
+.img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.39);
+    cursor: pointer; 
+}
+
+.container-img:hover .overlay{
+    opacity: 1;
+}
+
+.over-text {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .display-buttons button{
+      display: none;
+  }
+
+/*--------------------------------------*/
+/* PHOTOS */
+/*--------------------------------------*/
+
+.photo-flex-section{
+    margin: 0 15px;
+}
+
+.photo-flex-section h2{
+    margin-bottom: 0px;
+}
+
+#wedding-sub{
+    display: none;
+}
+
+#people-sub{
+    display: none;
+}
+
+/*--------------------------------------*/
+/* END */
+/*--------------------------------------*/
+
+
+.contact-section a{
+    color: #3b5998;
+    transition: 0.2s all;
+}
+
+.contact-section a:hover{
+    border-bottom: 2px solid #3b5998;
+}
+
+/*--------------------------------------*/
+/* END */
+/*--------------------------------------*/
+
+#end-section{
+    background-color: rgb(75, 75, 75);
+    color: rgb(228, 228, 228);
+}
+
+
+
+.end-child{
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+.logo{
+    border: 1px solid rgb(41, 105, 224);
+    background-color: rgb(41, 105, 224);
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+}
